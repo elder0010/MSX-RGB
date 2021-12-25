@@ -1,0 +1,11 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"R5,R2,R6,R4,R20,R3,R7,R22,R13,R11,R8,R19,R9,R21";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";14;"1K";;;
+2;"R26,R25,R24,R23";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";4;"4K7 1/4W";;;
+3;"J2,J1";"PinHeader_1x07_P2.54mm_Vertical";2;"Conn_01x07";;;
+4;"C4,C3,C2,C1";"CP_Elec_3x5.3";4;"16V/10UF";;;
+5;"Q2,Q3,Q4,Q1,Q9,Q10,Q8,Q7,Q6,Q5";"SOT-23";10;"MMBT3904";;;
+6;"RV1 - Green,RV3 - Blue,RV2 - Red";"Potentiometer_Vishay_TS53YL_Vertical";3;"5K";;;
+7;"R16,R14,R15";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";3;"100R 1/4W";;;
+8;"R10,R18,R12";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";3;"100K";;;
+9;"R1";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"2K2";;;
+10;"P6,P8,P9,P7";"1pin";4;"CONN_01X01";;;

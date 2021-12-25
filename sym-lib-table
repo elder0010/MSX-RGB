@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name TMS9929_RGB_Adapter-rescue)(type Legacy)(uri ${KIPRJMOD}/TMS9929_RGB_Adapter-rescue.lib)(options "")(descr ""))
+  (lib (name lm1881)(type Legacy)(uri ${KIPRJMOD}/lm1881.lib)(options "")(descr ""))
+)

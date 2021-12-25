@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\The Pit\MSX\TMS9929A Rgb\TMS9929_RGB_Adapter.sch</source>
+    <date>11-Nov-21 22:19:24</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TMS9929A to RGB (MSX RGB adapter)</title>
+        <company>Elder0010</company>
+        <rev>0</rev>
+        <date>2021-10-22</date>
+        <source>TMS9929_RGB_Adapter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P6">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <libsource lib="TMS9929_RGB_Adapter-rescue" part="CONN_01X01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57677766</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <libsource lib="TMS9929_RGB_Adapter-rescue" part="CONN_01X01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5767781F</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <libsource lib="TMS9929_RGB_Adapter-rescue" part="CONN_01X01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576778D8</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_01X01</value>
+      <footprint>Connect:1pin</footprint>
+      <libsource lib="TMS9929_RGB_Adapter-rescue" part="CONN_01X01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5767796B</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61486AE8</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614874F0</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61489125</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148AD14</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148BACB</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148CC24</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148D81E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614A7FA8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>16V/10UF</value>
+      <footprint>Capacitor_SMD:CP_Elec_3x5.3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614908A0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61498E34</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614998B6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61499A27</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6149F397</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6149FB1C</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100R 1/4W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614D6E9F</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>5K</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614D9C78</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>16V/10UF</value>
+      <footprint>Capacitor_SMD:CP_Elec_3x5.3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614E9A4A</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F2AD2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152868E</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152A1C9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>16V/10UF</value>
+      <footprint>Capacitor_SMD:CP_Elec_3x5.3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154985F</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61556AAE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>16V/10UF</value>
+      <footprint>Capacitor_SMD:CP_Elec_3x5.3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61578B86</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61574B03</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615A2667</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>5K</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BE8E3</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100R 1/4W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615F7A1D</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100R 1/4W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61606043</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61610091</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>5K</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616FF37C</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61488587</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6163746E</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6153BDE9</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61507198</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61489D0C</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6164B4F7</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148E4F2</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615621F1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617B4D89</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>4K7 1/4W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617EB7C5</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>4K7 1/4W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6182D608</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>4K7 1/4W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6183D13B</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>4K7 1/4W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61816F80</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61735AF6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMS9929_RGB_Adapter-rescue" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="TMS9929_RGB_Adapter-rescue">
+      <uri>E:\The Pit\MSX\TMS9929A Rgb/TMS9929_RGB_Adapter-rescue.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q2-Pad1)">
+      <node ref="RV1" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="R10" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="3" name="Net-(C3-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="4" name="Net-(Q6-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="6" name="Net-(Q4-Pad1)">
+      <node ref="RV3" pin="2"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(Q7-Pad2)">
+      <node ref="Q7" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="8" name="Net-(Q2-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad7)">
+      <node ref="J2" pin="7"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad4)">
+      <node ref="R15" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad3)">
+      <node ref="R16" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="15" name="Net-(Q7-Pad3)">
+      <node ref="RV3" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Q8-Pad2)">
+      <node ref="Q8" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="18" name="Net-(Q3-Pad1)">
+      <node ref="RV2" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad5)">
+      <node ref="Q9" pin="1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="20" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="21" name="VCC">
+      <node ref="Q1" pin="3"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="22" name="Net-(Q3-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="23" name="Net-(P9-Pad1)">
+      <node ref="P9" pin="1"/>
+    </net>
+    <net code="24" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="25" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="26" name="Net-(P6-Pad1)">
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="27" name="Net-(Q9-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="28" name="Net-(Q10-Pad2)">
+      <node ref="R19" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="29" name="Net-(J1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="31" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+      <node ref="Q10" pin="1"/>
+    </net>
+    <net code="32" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="33" name="Net-(C4-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="34" name="Net-(C2-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="35" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R23" pin="1"/>
+    </net>
+  </nets>
+</export>
