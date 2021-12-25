@@ -3,7 +3,8 @@
 
 This board outputs RGB+CSYNC from the original YPbPr chip channels of the TMS99 chip. 
 Output from each color channel can be adjusted using a trimmer. 
-Based on the [Universele interface RGB op MSX1 en SV.328] (http://www.msxarchive.nl/pub/msx/mirrors/hanso/hwdoityourself/rgbmsx1.pdf) but fixes the emitter follower transistors of this version.
+Based on the [Universele interface RGB op MSX1 en SV.328](http://www.msxarchive.nl/pub/msx/mirrors/hanso/hwdoityourself/rgbmsx1.pdf) but fixes the emitter follower transistors of this version.
+This repository contains the KiCad project and the gerber files.
 
 ## Features
 - Each channel can be tuned
@@ -15,11 +16,14 @@ Based on the [Universele interface RGB op MSX1 en SV.328] (http://www.msxarchive
 ## Video
 [![TMS99 RGB BOARD](https://img.youtube.com/vi/eCPy9jgGLzQ/0.jpg)](https://www.youtube.com/watch?v=eCPy9jgGLzQ)
 
-## Photos
-![PCB](https://i.imgur.com/vv8fp4m.jpg)
-![PCB](https://i.imgur.com/Qj1aLfD.jpg)
+## Assembled PCB
+![PCB](https://github.com/elder0010/msx_rgb/blob/main/images/1.jpg)
 
+## The PCB in a Phonola VG-8020
+![PCB](https://github.com/elder0010/msx_rgb/blob/main/images/2.jpg)
 
+## External view of the mini din connector (RF modulator has been replaced)
+![PCB](https://github.com/elder0010/msx_rgb/blob/main/images/3.jpg)
 
 ## Perks
 This board provides an RGB output for the TMS9929A / TMS9928A chip.
