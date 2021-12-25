@@ -12,6 +12,10 @@ Based on the [Universele interface RGB op MSX1 en SV.328] (http://www.msxarchive
 - Fits into the MSX composite modulator slot
 - Extremely cheap!
 
+![PCB](https://i.imgur.com/vv8fp4m.jpg)
+![PCB](https://i.imgur.com/Qj1aLfD.jpg)
+
+
 ## Video
 [![TMS99 RGB BOARD](https://img.youtube.com/vi/eCPy9jgGLzQ/0.jpg)](https://www.youtube.com/watch?v=eCPy9jgGLzQ)
 
