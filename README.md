@@ -1,5 +1,5 @@
-# TMS9929A RGB
-## A RGB demodulator for TMS9929A chip, mostly used on MSX computers and Colecovision. 
+# TMS9929A / TMS9928A RGB
+## A RGB demodulator for TMS9929A / TMS9928A chip, mostly used on MSX computers and Colecovision. 
 
 This board outputs RGB+CSYNC from the original YPbPr chip channels of the TMS9929A. 
 Output from each color channel can be adjusted using a trimmer. 
@@ -11,6 +11,9 @@ Based on the [Universele interface RGB op MSX1 en SV.328] (http://www.msxarchive
 - Provides 5V output pin (if you want to use it with an RGB Scart cable for TV)
 - Fits into the MSX composite modulator slot
 - Extremely cheap!
+
+## Video
+[![TMS99 RGB BOARD](https://img.youtube.com/vi/eCPy9jgGLzQ/0.jpg)](https://www.youtube.com/watch?v=eCPy9jgGLzQ)
 
 ## Perks
 This board provides an RGB output for the TMS9929A / TMS9928A chip.
