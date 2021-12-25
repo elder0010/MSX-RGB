@@ -3,7 +3,7 @@
 
 This board outputs RGB+CSYNC from the original YPbPr chip channels of the TMS99 chip. 
 Output from each color channel can be adjusted using a trimmer. 
-Based on the [Universele interface RGB op MSX1 en SV.328](http://www.msxarchive.nl/pub/msx/mirrors/hanso/hwdoityourself/rgbmsx1.pdf) but fixes the emitter follower transistors of this version.
+Based on the [Universele interface RGB op MSX1 en SV.328](http://www.msxarchive.nl/pub/msx/mirrors/hanso/hwdoityourself/rgbmsx1.pdf). Mine fixes the emitter follower transistors of this version.
 This repository contains the KiCad project and the gerber files.
 
 ## Features
@@ -17,7 +17,7 @@ This repository contains the KiCad project and the gerber files.
 [![TMS99 RGB BOARD](https://img.youtube.com/vi/eCPy9jgGLzQ/0.jpg)](https://www.youtube.com/watch?v=eCPy9jgGLzQ)
 
 ## Sample output (photo taken on BVM 20DU)
-[![VIDEO OUT](https://raw.githubusercontent.com/elder0010/msx_rgb/main/images/msx.jpg)
+![VIDEO OUT](https://raw.githubusercontent.com/elder0010/msx_rgb/main/images/msx.jpg)
 
 ## Assembled PCB
 ![PCB](https://github.com/elder0010/msx_rgb/blob/main/images/1.jpg)
@@ -45,6 +45,5 @@ In this way the palette should be close to the original.
 ## Compatibility
 This board has been tested with TMS9929A (PAL) chip and TMS9928A (NTSC).
 
-
-- PCB shape is the same of [https://hackaday.io/project/13056-tms9929a-rgb-and-component-adapter](TMS9929A RGB and Component adapter)
+- PCB shape is the same of [TMS9929A RGB and Component adapter](https://hackaday.io/project/13056-tms9929a-rgb-and-component-adapter)
 - Special thanks to [iz8dwf](https://www.youtube.com/iz8dwf)
