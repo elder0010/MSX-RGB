@@ -16,6 +16,9 @@ This repository contains the KiCad project and the gerber files.
 ## Video
 [![TMS99 RGB BOARD](https://img.youtube.com/vi/eCPy9jgGLzQ/0.jpg)](https://www.youtube.com/watch?v=eCPy9jgGLzQ)
 
+## Sample output (photo taken on BVM 20DU)
+[![VIDEO OUT](https://raw.githubusercontent.com/elder0010/msx_rgb/main/images/msx.jpg)
+
 ## Assembled PCB
 ![PCB](https://github.com/elder0010/msx_rgb/blob/main/images/1.jpg)
 
