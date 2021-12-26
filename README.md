@@ -28,9 +28,16 @@ This repository contains the KiCad project and the Gerber files, the [PDF schema
 ## External view of the mini din connector (RF modulator has been replaced)
 ![PCB](https://github.com/elder0010/msx_rgb/blob/main/images/3.jpg)
 
+## How to assemble
+- Y, Pb, Pr signals must be taken directly from the TMS chip (pin 35,36,38 on TMS9928A or TMS9929A)
+- Audio is from pin 4 of the AY38910
+- 5V pin is optional: wire it only if you need to connect the computer to a scart TV.
+- Removing the original composite modulator (on MSX) is not mandatory but encouraged: unfortunately it creates noises also on the RGB interface. Keep in mind that removing the modulator will disable the composite video and the RF video out of the machine.
+- On the Phonola VG8020 I removed the RF modulator to make room for a 8 pin mini din connector. I used the [8pin Mini DIN to EuroSCART PACKAPUNCH cable for RGB modified consoles](https://www.retrogamingcables.co.uk/atari/8PIN-MINI-DIN-TO-RGB-EUROSCART-TIM-WORTHINGTON-NES-RGB-ATARI-2600-HAS-SUPERGUN-Sega-Game-Gear-Philips-CDi-Colecovision-Intellivision-Panasonic-3DO). It's possible also to desolder the original composite out connector and use a 8 pin DIN connector to make it compatible with a Sega Genesis 1 SCART cable.
+
 ## Perks
 This board provides an RGB output for the TMS9929A / TMS9928A chip.
-Even if it's impossible to have 100% correct colours, it's possible to obtain a palette very close to the correct one in this way:
+Although it's impossible to have 100% correct colours, it's possible to obtain a palette very close to the correct one in this way:
 - Set each RGB trimmer to 0
 - Turn up a little the RED and GREEN potentiometer until something visible appears on screen
 - Turn up the BLUE potentiometer until the background becomes blueish - keep in mind that the blue channel is the most problematic one because of the TMS99x non-standard design
