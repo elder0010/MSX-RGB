@@ -4,7 +4,7 @@
 This board outputs RGB+CSYNC from the original YPbPr chip channels of the TMS99 chip. 
 Output from each color channel can be adjusted using a trimmer. 
 Based on the [Universele interface RGB op MSX1 en SV.328](http://www.msxarchive.nl/pub/msx/mirrors/hanso/hwdoityourself/rgbmsx1.pdf). Mine fixes the emitter follower transistors of this version.
-This repository contains the KiCad project and the gerber files, as well and the [PDF schematics](https://github.com/elder0010/msx_rgb/blob/main/TMS9929_RGB_Adapter.pdf)
+This repository contains the KiCad project and the gerber files, as well and the [PDF schematics](https://github.com/elder0010/msx_rgb/blob/main/TMS9929_RGB_Adapter.pdf).
 
 ## Features
 - Each channel can be tuned
